@@ -96,10 +96,29 @@ To test the APIs:
 3. Execute the requests
 
 ## Postman Collection
+### Downloading the Postman Collection
+1. Navigate to the GitHub repository
+2. Locate the `ProjectManagementSystem.postman_collection.json` file
+3. Click on the file
+4. Click the "Raw" button
+5. Right-click and select "Save As" to download the file
 
-The Postman collection for API testing is available in the repository. To use it:
-
+### Importing the Postman Collection
 1. Open Postman
-2. Click on Import
-3. Select the `Project_management_system.postman_collection.json` file
-4. The collection will be imported with all available API endpoints
+2. Click on the "Import" button in the top-left corner
+3. Choose the "File" tab
+4. Select the downloaded `ProjectManagementSystem.postman_collection.json` file
+5. Click "Import"
+
+### Using the Postman Collection
+- The collection contains all pre-configured API endpoints
+- Replace `localhost` with the AWS EC2 Public IPv4 DNS when testing
+- Update environment variables (if required) to match your setup
+- Each request is labeled and organized by functionality
+
+### Recommended Setup
+- Ensure you have the latest version of Postman installed
+- Set up environment variables for:
+  - Base URL
+  - Authentication tokens
+  - Any project-specific configurations
