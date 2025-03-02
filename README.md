@@ -1,13 +1,6 @@
 # Project Management System
 A comprehensive backend system for project management built using Spring Boot, Maven, and MySQL.
 
-## AWS Deployment
-**Public IPv4 DNS:** `ec2-65-2-73-178.ap-south-1.compute.amazonaws.com`
-
-### Accessing Endpoints
-- **Direct Access:** Replace `localhost` with the provided Public IPv4 DNS when testing in Postman
-- **Example:** If the local endpoint is `http://localhost:8080/signin`, use `http://ec2-65-2-73-178.ap-south-1.compute.amazonaws.com:8080/signin`
-
 ## Features
 - **User Management**
   - User registration and authentication
@@ -34,7 +27,6 @@ A comprehensive backend system for project management built using Spring Boot, M
 - **Build Tool:** Maven
 - **Database:** MySQL
 - **API Testing:** Postman
-- **Deployment:** AWS EC2
 
 ## API Endpoints
 
@@ -112,7 +104,6 @@ To test the APIs:
 
 ### Using the Postman Collection
 - The collection contains all pre-configured API endpoints
-- Replace `localhost` with the AWS EC2 Public IPv4 DNS when testing
 - Update environment variables (if required) to match your setup
 - Each request is labeled and organized by functionality
 
